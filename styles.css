@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: rgb(189, 69, 21);
+}
+
+header {
+    background-color: rgba(181, 103, 25, 0.836);
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Logo {
+    width: 50%;
+    height: 150px;
+   max-height: 50%; 
+   display: block;
+   background-size: 50%;
+   
+}
+
+
+section,div {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+ }
+
+
+footer {
+    background-color: rgb(244, 164, 96);
+    padding: 10px 0;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/*  respansivy*/
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 20px 0;
+    }
+
+   
+}
+
+.film-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.film-links li {
+    margin: 0 10px;
+}
+
+.film-links a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.film-links a:hover {
+    color: rgb(217, 182, 208);
+}   
